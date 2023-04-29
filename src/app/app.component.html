@@ -3,6 +3,7 @@
     <div class="col-5 user-sec">
       <div>
         <h1>Users</h1>
+        <hr>
         <table class="table" *ngIf="userList">
           <thead>
             <tr>
@@ -25,7 +26,8 @@
 
     <div class="col-5 ms-4 add-user">
       <h2 class="mb-3">New User</h2>
-      <form class="row g-3">
+      <hr>
+      <form class="row g-3 mt-3">
         <div class="col-auto">
           <label for="userName" class="visually-hidden">UserName</label>
           <input type="text" class="form-control" id="userName" placeholder="userName" [(ngModel)]="user.userName" [ngModelOptions]="{standalone: true}">
