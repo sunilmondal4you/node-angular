@@ -1,0 +1,15 @@
+.user-sec{
+  height: 450px;
+  background-color:aliceblue;
+  border: 1px solid;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+.add-user{
+  height: 450px;
+  background-color:rgb(246, 241, 235);
+  border: 1px solid;
+  border-radius: 5px;
+  overflow-y: auto;
+}
